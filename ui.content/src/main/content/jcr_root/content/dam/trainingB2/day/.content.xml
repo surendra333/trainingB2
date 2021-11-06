@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ad4072e8-c1eb-47b2-b5c8-5f44a7ab595e">
+    <jcr:content
+        cq:lastReplicated="{Date}2021-11-01T12:57:08.210-04:00"
+        cq:lastReplicatedBy="oauthservice"
+        cq:lastReplicationAction="Activate"
+        cq:name="day"
+        cq:parentPath="/content/dam/trainingB2"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-11-01T17:18:12.484-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="day"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-11-01T17:18:12.485-04:00">
+        <data
+            cq:model="/conf/trainingB2/settings/dam/cfm/models/data"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                day="1"
+                day_x0040_LastModified="{Date}2021-11-01T12:57:26.551-04:00"
+                hours="2"
+                hours_x0040_LastModified="{Date}2021-11-01T12:57:26.551-04:00"/>
+            <multiplication
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                descriptoin="&lt;p>days&amp;amp;hours&lt;/p>&#xa;"
+                descriptoin_x0040_ContentType="text/html"
+                descriptoin_x0040_LastModified="{Date}2021-11-01T17:17:54.235-04:00"/>
+            <division
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                descriptoin="&lt;p>days&amp;amp;hours&lt;/p>&#xa;"
+                descriptoin_x0040_ContentType="text/html"
+                descriptoin_x0040_LastModified="{Date}2021-11-01T17:18:12.453-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <multiplication
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Multiplication"
+                    name="multiplication">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[descriptoin:c6752e40-d5d5-4dca-bc79-7516582f129c]"/>
+                </multiplication>
+                <division
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Division"
+                    name="division">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[descriptoin:4ddbecb8-17b2-41fc-9a74-65507d7fc1f9]"/>
+                </division>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

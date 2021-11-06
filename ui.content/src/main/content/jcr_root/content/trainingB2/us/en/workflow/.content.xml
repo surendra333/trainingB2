@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-07-31T15:14:01.788+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/trainingB2/settings/wcm/templates/newpagetemplatestructure"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Workflow"
+        jcr:uuid="630640c3-d735-499f-bfb0-cb3067ab7839"
+        sling:resourceType="trainingB2/components/structure/homepage"
+        Approver1=" suri"
+        Aprover1="Surya"
+        ProopApprover1="Val suri"
+        ProopAprover1="ValSunil">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:lastModified="{Date}2021-06-04T11:41:01.755+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <osgidemo
+                    jcr:created="{Date}2021-07-31T15:14:01.787+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-31T15:14:01.787+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/OsgiDemo"/>
+                <title
+                    jcr:created="{Date}2021-07-28T12:22:10.976+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-28T12:22:10.976+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/title"/>
+                <osgiconfig
+                    jcr:created="{Date}2021-07-28T20:12:54.557+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-28T20:12:54.557+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/OsgiConfig"/>
+                <osgifactorydemo
+                    jcr:created="{Date}2021-07-28T19:02:45.362+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-28T19:02:45.362+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/OsgiFactoryDemo"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-06-10T16:26:35.239+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/trainingB2/settings/wcm/templates/newpagetemplatestructure"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HomePage"
+        jcr:uuid="c9500217-0ed6-497d-975a-851183d763cd"
+        sling:resourceType="trainingB2/components/structure/homepage"
+        Approver1=" suri"
+        Aprover1="Surya">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:lastModified="{Date}2021-06-04T11:41:01.755+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header_section
+                    jcr:created="{Date}2021-06-04T12:47:33.821+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-06-04T17:55:21.085+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/customComponents/header_section"
+                    href="[/content/trainingB2/us/en/homepage]"
+                    logo="[/content/dam/trainingB2/assets/logo.png]"
+                    nav1href="[/content/trainingB2/us/en/homepage]"
+                    nav1title="[Home]"
+                    nav2href="[/content/trainingB2/us/en/homepage]"
+                    nav2title="[Browser Ads]"
+                    nav3href="[/content/trainingB2/us/en/homepage]"
+                    nav3title="[Contact]">
+                    <mainNavigation jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            href="/content/trainingB2/us/en/homepage"
+                            title="Home"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            href="/content/trainingB2/us/en/browseradspage"
+                            title="BrowseAds"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            href="/content/trainingB2/us/en/contactpage"
+                            title="Contact"/>
+                    </mainNavigation>
+                </header_section>
+                <responsivegrid
+                    jcr:created="{Date}2021-06-07T18:40:09.800+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-06-07T18:40:09.800+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <author
+                        jcr:created="{Date}2021-06-08T10:42:47.887+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-06-10T16:26:35.216+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="trainingB2/components/content/author"
+                        fname="surendra"
+                        lname="somu"/>
+                </responsivegrid>
+                <footer_section
+                    jcr:created="{Date}2021-06-04T12:53:00.094+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-06-08T16:09:23.430+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/customComponents/footer_section"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    dolorText="this adsiter Page."
+                    logo="/content/dam/trainingB2/assets/footer-logo.png"
+                    subscribeText="Subcribe Email">
+                    <quickLinks jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            image="/content/dam/trainingB2/assets/chevron-arrow.png"
+                            title="Join Us"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            image="/content/dam/trainingB2/assets/chevron-arrow.png"
+                            title="Maintainance"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            image="/content/dam/trainingB2/assets/chevron-arrow.png"
+                            title="Language Packs"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            image="/content/dam/trainingB2/assets/chevron-arrow.png"
+                            title="LearnPress"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            image="/content/dam/trainingB2/assets/chevron-arrow.png"
+                            title="Release Status"/>
+                    </quickLinks>
+                </footer_section>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

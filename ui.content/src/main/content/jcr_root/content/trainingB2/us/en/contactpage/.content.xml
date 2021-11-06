@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-07-27T19:58:36.228+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/trainingB2/settings/wcm/templates/newpagetemplatestructure"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ContactPage"
+        jcr:uuid="0c99b42f-fc94-4ae8-8362-6f0868f884c3"
+        sling:resourceType="trainingB2/components/structure/homepage"
+        Approver1=" suri"
+        Aprover1="Surya">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:lastModified="{Date}2021-06-04T11:41:01.755+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header_section
+                    jcr:created="{Date}2021-06-04T14:18:40.257+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-06-04T14:18:40.257+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/customComponents/header_section"/>
+                <responsivegrid
+                    jcr:created="{Date}2021-06-04T14:18:48.496+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-06-04T14:18:48.496+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                </responsivegrid>
+                <footer_section
+                    jcr:created="{Date}2021-06-04T14:18:57.547+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-06-04T14:18:57.547+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="trainingB2/components/content/customComponents/footer_section"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
